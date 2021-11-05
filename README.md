@@ -1,4 +1,6 @@
 ## Squid Lotto
+### Website: https://squidlotto.io | Telegram: https://t.me/squidlotto
+
 A game of chance for the most degenerate gamblers on the Binance Smart Chain, with only one winner.
 
 The SQTTO token contract is built on the Binance Smart Chain with a total supply of 45,000 SQTTO. Holders need to acquire SQTTO to participate in the first round of Squid Lotto, with each token representing one entry to the lottery.
