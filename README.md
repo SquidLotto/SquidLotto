@@ -11,4 +11,4 @@ Once you dare to join, there is no leaving the game, the tokens can not be sold 
 
 If 50% of the SQTTO supply is voted towards ending the game on Snapshot.org or all tokens are bought from the market the winner will be drawn.
 
-Upon the conclusion of the game, a winning wallet will be chosen at random. The more tokens you hold, the greater your chance of winning. The victor receives 90% of the liquidity pool tokens and can remove the liquidity to receive his prize.
+Upon the conclusion of the game, a winning wallet will be chosen at random, utilizing a cryptographically secure random number generator.
