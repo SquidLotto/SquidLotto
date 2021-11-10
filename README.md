@@ -1,14 +1,32 @@
 ## Squid Lotto
 ### Website: https://squidlotto.io | Telegram: https://t.me/squidlotto
 
-A game of chance for the most degenerate gamblers on the Binance Smart Chain, with only one winner.
+Accept the invitation to the Squid Lotto at your own risk. A daily game of chance for the most degenerate gamblers on the Binance Smart Chain. A series of six lotteries, each having only one winner. The stakes are deadly high, the disqualified lose everything. 
 
-The SQTTO token contract is built on the Binance Smart Chain with a total supply of 45,000 SQTTO. Holders need to acquire SQTTO to participate in the first round of Squid Lotto, with each token representing one entry to the lottery.
+Rules of the game
+1️⃣ Buy at least one SQTTO1 Token to participate
+⚠️ Attention, SQTTO1 Tokens can't be sold! 
+2️⃣ After 24 hours a snapshot of all holders is taken.
+3️⃣ The winning wallet is chosen at random.
+4️⃣ The winner receives his the LP-Token jackpot.
 
-Purchase transactions will be limited to 100 tokens per transaction, both during public sale and on Pancake Swap to ensure a fair distribution among participants.
+🌐 Read our Medium announcement (https://squidlotto.medium.com/) for details
 
-Once you dare to join, there is no leaving the game, the tokens can not be sold back to the DEX pool.
+🧮 Tokenomics
+Total Supply: 50,000 SQTTO1
+Team Tokens: 0 SQTTO1
+Pre-Sale Tokens: 0 SQTTO1
 
-If 50% of the SQTTO supply is voted towards ending the game on Snapshot.org or all tokens are bought from the market the winner will be drawn.
+🥷🏻 Stealth Launch
+Launching on Pancakeswap
+No pre-sale or prior announcement
 
-Upon the conclusion of the game, a winning wallet will be chosen at random, utilizing a cryptographically secure random number generator.
+📊 Winning distribution
+Winner: 45% of LP Tokens
+Round 2 Liquditiy: 45% of LP Tokens
+Team incentive: 10% of LP Tokens
+
+📝 SQTTO1 Contract 0xe0B13f646d9ccC78C14DF9afe7Fa7910cd3C3860
+
+🔮 Do you feel lucky?
+BUY (https://pancakeswap.finance/) | Website (https://squidlotto.io/) | Twitter (https://twitter.com/squidlottobsc) | Contract | Medium (https://squidlotto.medium.com/)
