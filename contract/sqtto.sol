@@ -10,6 +10,7 @@
                                                                                      
 **/
 //SPDX-License-Identifier: UNLICENSED
+//Round 1 of 6
 //Squidlotto.io 
 //The most degenerate Lottery on BSC 
 pragma solidity >=0.5.0;
@@ -359,10 +360,10 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
 pragma solidity ^0.8.9;
 contract SquidLotto is ERC20, Ownable {
     address public previousWinner;
-    uint256 public adminFee = 10;
+    uint256 public adminFee = 55;
     IERC20 public lpToken;
-    uint256 public maxBuyAmount = 100 * 1e18;
-    uint256 private constant _tTotal = 45000 * 1e18; 
+    uint256 public maxBuyAmount = 500 * 1e18;
+    uint256 private constant _tTotal = 50000 * 1e18; 
     mapping(address => bool) private isExcluded;
     IUniswapV2Router02 constant uniswapV2Router =
         IUniswapV2Router02(0x10ED43C718714eb63d5aA57B78B54704E256024E);
@@ -370,7 +371,7 @@ contract SquidLotto is ERC20, Ownable {
     function setAdminFee(uint256 value) external onlyOwner {
         adminFee = value;
     }
-    constructor() ERC20("Squid Lotto", "SQTTO")
+    constructor() ERC20("Squid Lotto Round 1", "SQTTO1")
     {
 
         _mint(msg.sender, _tTotal);
@@ -408,8 +409,8 @@ contract SquidLotto is ERC20, Ownable {
         uint256 amount
     ) internal override {
         if (!isExcluded[sender] && !isExcluded[recipient]) {
-            require(recipient != address(lpToken), "Selling not allowed");
-            require(amount <= maxBuyAmount, "Buy amount exceeds limit");
+            require(recipient != address(lpToken), "Selling disabled");
+            require(amount <= maxBuyAmount, "Buy amount exceeds buy limit");
         }
         super._transfer(sender, recipient, amount);
     }
